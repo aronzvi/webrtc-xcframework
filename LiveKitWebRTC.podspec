@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     * Objective-C symbols are prefixed with LK, for example LKRTCPeerConnection.
   DESC
 
-  spec.homepage = "https://github.com/livekit/webrtc-xcframework"
+  spec.homepage = "https://github.com/aronzvi/webrtc-xcframework"
   spec.license = {:type => "BSD", :file => "LiveKitWebRTC.xcframework/LICENSE"}
   spec.author = "LiveKit"
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.osx.deployment_target = "10.15"
 
   spec.source = {
-    :http => "https://github.com/livekit/webrtc-xcframework/releases/download/125.6422.11/LiveKitWebRTC.xcframework.zip"
+    :http => "https://github.com/aronzvi/webrtc-xcframework/releases/download/125.6422.11/LiveKitWebRTC.xcframework.zip"
   }
   spec.vendored_frameworks = "LiveKitWebRTC.xcframework"
 end
